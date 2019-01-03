@@ -1,0 +1,74 @@
+<html>
+	<head>
+	<title>Form Pendaftaran</title>
+		<link rel="stylesheet" type="text/css"
+		media="all" href="style.css">
+	</head>
+	<body bg background="Image/background.jpg">
+		<div id="layout" class="border">
+			<div id="header" class="border">
+				<h1> AJI SETIAWAN M WEB <h1>
+			</div>
+			<div id="menu" class="border">
+				<ul>
+					<li><a href="Biodata.html">Biodata</a></li>
+					<li><a href="Deskripsi.html">Deskripsi</a></li>
+					<li><a href="Krs.html">KRS</a></li>
+					<li><a href="Form.html">Pendaftaran Admin</a></li>
+				</ul>
+			</div>
+			<div id="content" class="border">
+				<div id="judul">
+				<h2>FORM PENDAFTARAN</h2>
+				</div>
+				<div id="table">
+					<div class="tableform">
+						<table>
+							<form action="form.php" method="get">
+								<tr>
+									<td>Nama</td><td><input type="text" name="nama" /><br></td>
+								</tr>
+								<tr>
+									<td>Password</td><td><input type="password" name="password" /><br><td>
+								</tr>
+								<tr>
+									<td>Jenis Kelamin</td><td> 
+										<input type="radio" name="jenis_kelamin" value="laki-laki" checked /> Laki - Laki
+										<input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan
+									<br></td>
+									</tr>
+								<tr>
+									<td>Keahlian</td><td> 
+										<input type="checkbox" name="keahlian"  value="Menari" /> Menari
+										<input type="checkbox" name="keahlian"  value="Bernyanyi" checked /> Bernyanyi
+										<input type="checkbox" name="keahlian"  value="Berenang" /> Berenang
+									<br></td>
+								</tr>
+								<tr>
+									<td>Asal Kota</td><td>
+										<select name="kota_asal" >
+											<option value="Kota Jakarta"> Jakarta</option>
+											<option value="Kota Bandung">Bandung</option>
+											<option value="Kota Semarang" selected>Semarang</option>
+										</select>
+									<br></td>
+								</tr>
+								<tr>
+								<td>Deskripsi diri</td><td>
+									<textarea name="deskripsi" rows="5" cols="28">
+									</textarea>
+								<br></td>
+								</tr>
+								<tr><td>
+									<td colspan="2"><input type="submit" value="ENTER">
+									<input type="reset" value="RESET"></td>
+								</tr>
+							</form>
+						</table>
+					</div>
+				</div>
+				<audio controls> <source src= "Music/Friend.mp3" type="audio/mpeg" autoplay="autoplay"></audio>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,70 @@
+<html>
+	<head>
+	<title>form Peneriamaan</title>
+		<link rel="stylesheet" type="text/css"
+		media="all" href="style7.css">
+	</head>
+	<body bg background="Image/background.jpg">
+	<font color=white>
+	<div id="layout">
+		<div id="header">
+			<h1 align="center"> AJI SETIAWAN WEB <h1>
+		</div>
+		<div id="menu">
+				<ul>
+					<li><a href="biodata.html">Biodata</a></li>
+					<li><a href="deskripsi.html">Deskripsi</a></li>
+					<li><a href="sks.html">SKS</a></li>
+					<li><a href="form.html">Pendaftaran Admin</a></li>
+				</ul>
+		</div>
+	</font>
+		<table border="0" align="center" width="30%" bgcolor="cyan">
+		<tr>
+		<td><h3>Form Pendaftaran</h3></td>
+		</tr>
+		<form action="form.php" method="get">
+		<tr>
+		<td>Nama</td><td><input type="text" name="nama" /><br></td>
+		</tr>
+		<tr>
+		<td>Password</td><td><input type="password" name="password" /><br><td>
+		</tr>
+		<tr>
+		<td>Jenis Kelamin</td><td> 
+			<input type="radio" name="jenis_kelamin" value="laki-laki" checked /> Laki - Laki
+			<input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan
+		<br></td>
+		</tr>
+		<tr>
+		<td>Keahlian</td><td> 
+			<input type="checkbox" name="keahlian"  value="Menari" /> Menari
+			<input type="checkbox" name="keahlian"  value="Bernyanyi" checked /> Bernyanyi
+			<input type="checkbox" name="keahlian"  value="Berenang" /> Berenang
+		<br></td>
+		</tr>
+		<tr>
+		<td>Asal Kota</td><td>
+			<select name="kota_asal" >
+				<option value="Kota Jakarta"> Jakarta</option>
+				<option value="Kota Bandung">Bandung</option>
+				<option value="Kota Semarang" selected>Semarang</option>
+			</select>
+		<br></td>
+		</tr>
+		<tr>
+		<td>Deskripsi diri</td><td>
+			<textarea name="deskripsi" rows="5" cols="28">
+			</textarea>
+		<br></td>
+		</tr>
+		<tr><td>
+			<td colspan="2"><input type="submit" value="ENTER">
+			<input type="reset" value="RESET"></td>
+		</tr>
+		</form>
+		</table>
+	<audio controls> <source src= "Music/YCCoL.mp3" type="audio/mpeg" autoplay="autoplay"></audio>
+	</div>
+	</body>
+</html>

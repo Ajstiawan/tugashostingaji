@@ -1,0 +1,153 @@
+/* untuk ukuran layar 1350px kebawah */
+@media screen and (max-width: 1350px) {
+	
+	body{
+		width			: auto;
+		float			: none;
+	}
+	
+	#layout {
+		width			: auto;
+		float			: none;
+	}
+	
+	#header img {
+		width			: auto;
+		float			: none;
+		height 			: 80px;
+	}
+	.isifooter2{
+		padding-left	: 150px;
+	}
+}
+/* untuk ukuran layar 780px kebawah */
+@media screen and (max-width: 780px) {
+	
+	body{
+		width			: auto;
+		float			: none;
+	}
+	
+	#layout {
+		width			: auto;
+		float			: none;
+	}
+	
+	#header img {
+		width			: auto;
+		float			: none;
+		height 			: 60px;
+	}
+	.isiberita1{
+		width			: auto;
+		padding-left	: 0px;
+	}
+	.isiberita2{
+		width			: auto;
+		padding-left	: 0px;
+	}
+	.isifooter2{
+		padding-left	: 150px;
+	}
+}
+/* untuk ukuran layar 600px kebawah */
+@media screen and (max-width: 600px) {
+	#menu {
+    height				:100px;
+	}
+	#menu ul .sub3 {
+	left				: 0px;
+	top					: 100px;
+	}
+}
+/* untuk ukuran layar 320px kebawah */
+@media screen and (max-width: 320px) {
+	
+	body{
+		width			: auto;
+		float			: none;
+	}
+	
+	#layout {
+		width			: auto;
+		float			: none;
+	}
+	
+	#header img {
+		width			: auto;
+		float			: none;
+		height 			: 35px;
+	}
+	#menu {
+    height				:100px;
+	}
+	#menu ul .sub2 {
+	left				: 0px;
+	top					: 100px;
+	}
+	#menu ul .sub3 {
+	left				: 150px;
+	top					: 100px;
+	}
+	
+	#banner{
+	float				: left;
+	width				: 100%;
+	height				: 583px;
+	}
+	#banner img{
+	width				: 100%;
+	height				: 400px;
+	text-align			: center;
+	}
+	#banner h2{
+	height				: 140px;
+	background-color	: #e8e8e8;
+	text-align			: center;
+	padding-top			: 25px;
+	}
+	#content{
+	width				: 100%;
+	height				: auto;
+	text-align			: left;
+	font-size			: 15px;
+	}
+	
+	#content h2{
+	font-size			: 30px;
+	width				: 100%;
+	height				: auto;
+	background-color	: #e8e8e8;
+	text-align			: center;
+	}
+	.isiberita1{
+	padding-left		: 0px;
+	width				: auto;
+	}
+	.isiberita1 h1{
+	font-size			: 25px;
+	}
+	.isiberita2{
+	float				: left;
+	padding-top			: 20px;
+	height				: auto;
+	padding-left		: 0px;
+	font-size			: 15px;
+	width				: 400px;
+	}
+	.subberita{
+	height				: 240px;
+	}
+	.subberita a{
+	float				: left;
+	}
+	.subberita i{
+	float				: left;
+	}
+	.isifooter1{
+		padding-left	: 0px;
+	}
+	.isifooter2{
+		padding-left	: 0px;
+	}
+}
